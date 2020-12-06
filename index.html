@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/handsontable@7.4.2/dist/handsontable.full.min.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/handsontable@7.4.2/dist/handsontable.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handsontable@7.4.2/languages/zh-CN.js"></script>
+</head>
+<body>
+<div class="筹算表" style="width:max-content">
+<div id="canshu" style="display:none">
+{
+	"color": "#79BD8F",
+	"postScheme": "sc",
+	"data": "Data:Cai.json",
+	"colHeaders": ["选购", "定量", "备注", "名目", "图", "种类", "店", "架位", "现价", "进度"],
+    "cells": "groceryCells"
+}
+</div>
+<div id="daizai"><br/>[[File:loadbar1.gif]]</div>
+<div id="neirong" style="z-index:0"></div>
+</div>
+<script src="筹算表.js"></script>
+</body>
+</html>
